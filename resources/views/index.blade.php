@@ -178,7 +178,7 @@
                         <div class="skill">
                             <div class="header-skill black_theme">
                                 <span class="title-skill">PHP</span>
-                                <span class="progress-digit digit4">50%</span>
+                                <span class="progress-digit digit4">60%</span>
                             </div>
                             <div class="progress-bar-wrapper">
                                 <div class="progress progres4"></div>
@@ -209,7 +209,7 @@
                                 <span class="progress-digit digit7">50%</span>
                             </div>
                             <div class="progress-bar-wrapper">
-                                <div class="progress progres6"></div>
+                                <div class="progress progres7"></div>
                             </div>
                         </div>
 												
@@ -219,7 +219,7 @@
                                 <span class="progress-digit digit8">80%</span>
                             </div>
                             <div class="progress-bar-wrapper">
-                                <div class="progress progres6"></div>
+                                <div class="progress progres8"></div>
                             </div>
                         </div>
                     </div>
@@ -515,6 +515,10 @@
                     let digit4 = $('.digit4').text();
                     let digit5 = $('.digit5').text();
                     let digit6 = $('.digit6').text();
+                    let digit7 = $('.digit7').text();
+                    let digit8 = $('.digit8').text();
+                    let digit9 = $('.digit9').text();
+                    let digit10 = $('.digit10').text();
                     if (windowHeight > objectHeight) {
 
                         $('.progres1').css('width', digit1);
@@ -523,6 +527,10 @@
                         $('.progres4').css('width', digit4);
                         $('.progres5').css('width', digit5);
                         $('.progres6').css('width', digit6);
+                        $('.progres7').css('width', digit7);
+                        $('.progres8').css('width', digit8);
+                        $('.progres9').css('width', digit9);
+                        $('.progres10').css('width', digit10);
                     } else {
                         $('.progress').css('width', '0');
                         
