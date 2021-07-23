@@ -12,11 +12,11 @@ return [
     |
     */
 
-    'instagram'	=> '',
+    'instagram'	=> 'https://www.instagram.com/rasul_shahpouri/',
     'telegram'	=> '',
     'whatsapp'	=> '',
     'facebook'	=> '',
-    'linkedin'	=> '',
+    'linkedin'	=> 'https://www.linkedin.com/in/rasul-shahpouri-رسول-شاهپوری/',
     'twitter'	=> '',
     'github'	=> 'https://github.com/rasulsh',
     'email'		=> 'me@rasulsh.ir',

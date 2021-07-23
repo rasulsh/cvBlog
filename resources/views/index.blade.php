@@ -105,12 +105,12 @@
                 </ul>
                
                 <div class="socials">
-                    <a href="#" class="social"><img src="statics/images/instagram-icon.svg" alt=""></i></a>
-                    <a href="#" class="social"><img src="statics/images/telegram-plane-brands.svg" alt=""></i></a>
+                    <a target="_blank" href="{{ trans('social_link.instagram') }}" class="social"><img src="statics/images/instagram-icon.svg" alt=""></i></a>
+                    <!--<a href="#" class="social"><img src="statics/images/telegram-plane-brands.svg" alt=""></i></a>
                     <a href="#" class="social"><img src="statics/images/whatsapp-icon.svg" alt=""></i></a>
-                    <a href="#" class="social"><img src="statics/images/facebook-icon.svg" alt=""></i></a>
-                    <a href="#" class="social"><img src="statics/images/linkedin-icon_2.svg" alt=""></a>
-                    <a href="#" class="social"><img src="statics/images/twitter-icon.svg" alt=""></a>
+                    <a href="#" class="social"><img src="statics/images/facebook-icon.svg" alt=""></i></a>-->
+                    <a target="_blank" href="{{ trans('social_link.linkedin') }}" class="social"><img src="statics/images/linkedin-icon_2.svg" alt=""></a>
+                    <!--<a href="#" class="social"><img src="statics/images/twitter-icon.svg" alt=""></a>-->
                 </div>
                 <span class="footer-nav"></span>
 
