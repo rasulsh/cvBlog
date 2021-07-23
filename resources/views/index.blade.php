@@ -339,7 +339,7 @@
                             <input type="text" class="input backgrond-block_theme border_theme" placeholder="نام خانوادگی">
                             <input type="text" class="input backgrond-block_theme border_theme" placeholder="ایمیل">
                             <textarea name="" class="input backgrond-block_theme border_theme" id="" cols="40" rows="" placeholder="پیام شما ..."></textarea>
-                            <input type="submit" class="btn btn-primary btn-rounded" value="فرستادن">
+                            <input id="send-email" type="submit" class="btn btn-primary btn-rounded" value="فرستادن">
                         </form>
                     </div>
                 </section>
@@ -588,7 +588,11 @@
                 }
             });
 
-
+			// Send Email
+			$("#send-email").click(function(){
+				alert("{{ trans('common.error_email') }}");
+				return false;				
+			});
         });
     </script>
 </body>
